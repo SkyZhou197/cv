@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <title>周昊旻的简历</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #eee;
+        margin: 20px 0;
+      }
+
+      article {
+        width: 21cm;
+        min-height: 29.7cm;
+        background: white;
+        margin: 0 auto;
+        overflow: auto;
+        padding: 1em;
+      }
+    </style>
+    <style media="print">
+      body {
+        margin: 0;
+      }
+
+      .page2 {
+        page-break-before: always;
+        margin-top: 30px;
+      }
+    </style>
+    <style>
+      body {
+      }
+
+      p {
+        margin: 0.3em 0;
+      }
+
+      h1 {
+        font-size: 25px;
+        margin-top: 0;
+      }
+
+      h4,
+      h5,
+      h6 {
+        font-weight: normal;
+      }
+
+      ol,
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      strong {
+        font-weight: normal;
+        color: #f60;
+      }
+
+      a {
+        color: #999;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      p,
+      li {
+        color: #666;
+      }
+
+      strong {
+        font-weight: normal;
+      }
+
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+      }
+
+      .bio {
+        position: relative;
+      }
+
+      .bio img {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    </style>
+
+    <style>
+      .projects {
+      }
+
+      .projects p {
+        color: #666;
+      }
+
+      .projects strong {
+        color: rgb(0, 162, 255);
+      }
+
+      .projects > ol {
+        margin-top: 0;
+        list-style-position: inside;
+        padding: 0;
+      }
+
+      .projects > ol > li {
+        margin-bottom: 24px;
+      }
+
+      .projects > ol > li > header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .projects > ol > li h3 {
+        display: inline-block;
+      }
+    </style>
+    <style>
+      .skills {
+      }
+
+      .skills > .wrapper > :first-child {
+        margin-right: 24px;
+      }
+
+      .skills > .wrapper > ul {
+        color: #666;
+      }
+
+      .skills > .wrapper strong {
+        color: #f60;
+      }
+
+      .skills > .wrapper > ul > li {
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }
+    </style>
+    <style>
+      .openSource {
+      }
+
+      .openSource > h2 {
+      }
+
+      .openSource header img {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .openSource > ul {
+      }
+
+      .openSource > ul > li {
+        margin-bottom: 24px;
+      }
+
+      .openSource header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .openSource h3 {
+      }
+    </style>
+    <style>
+      .jobs {
+      }
+
+      .jobs > h2 {
+      }
+
+      .jobs > ol {
+      }
+
+      .jobs > ol > li {
+        margin: 12px 0;
+      }
+
+      .jobs header {
+        display: flex;
+        color: #666;
+        margin-bottom: 12px;
+      }
+
+      .jobs header > h3 {
+        font-size: 18px;
+        color: #333;
+      }
+
+      .jobs header > h4 {
+        margin-left: 1em;
+        font-size: 18px;
+      }
+
+      .jobs header > span {
+        font-size: 18px;
+        margin-left: auto;
+      }
+    </style>
+
+    <style>
+      @media (max-width: 500px) {
+        body {
+          margin: 0;
+        }
+
+        article {
+          width: auto;
+          height: auto;
+        }
+
+        .bio img {
+          display: none;
+        }
+
+        .skills .wrapper {
+          flex-direction: column;
+        }
+
+        #skills {
+          width: auto;
+        }
+        .jobs header {
+          flex-direction: column;
+        }
+        .jobs header > h3,
+        .jobs header > h4,
+        .jobs header > span {
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <article>
+      <section class="bio">
+        <h1>周昊旻</h1>
+        <p>
+          男 | 23岁 | 前端开发工程师
+        </p>
+        <p>
+          手机：<a href="tel:17605604901">17605604901</a> | 邮箱：<a
+            href="mailto:785354897@qq.com"
+            >785354897@qq.com</a
+          >
+          | 微信：hm5282z
+        </p>
+        <p>
+          学历：<span><time>2015年</time>~<time>2019年</time></span>
+          安徽建筑大学 | 应用物理学 | 本科 | CET4
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>专业技能</h2>
+        <div class="wrapper">
+          <div id="skills"></div>
+          <ul>
+            <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
+            <li>
+              熟悉 <strong>ES6</strong>，包括 let / Promise / await / 析构赋值
+            </li>
+            <li>
+              熟悉<strong>前后端分离</strong>技术，包括
+              AJAX、跨域、前端路由、Cookie、Session 等
+            </li>
+            <li>
+              熟练掌握 <strong>Vue全家桶</strong>的使用，包括
+              VueCli、VueRouter、Vuex 等
+            </li>
+            <li>
+              熟练掌握<strong>React全家桶</strong>的使用，包括
+              create-react-app、ReactRouter、Redux 等
+            </li>
+
+            <li>
+              了解 <strong>TypeScript</strong> 的使用，了解
+              <strong>Webpack 的配置和优化</strong>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>项目经历</h2>
+        <ol>
+          <li>
+            <header style="display: flex; position: relative;">
+              <h3>钱迹</h3>
+              <span>
+                <a href="https://github.com/SkyZhou197/morney-test">源码链接</a>
+                <a href="https://zhouhaomin.top/qianji-website/#/money"
+                  >项目预览</a
+                >
+              </span>
+            </header>
+            <p>
+              一款极简的记账应用，也是一款基于
+              <strong>Vue</strong> /<strong>VueRouter</strong> /<strong
+                >Vuex</strong
+              >
+              / <strong>TypeScript</strong> 的单页面项目。
+            </p>
+            <p>
+              仿造鲨鱼记账app设计，期间解决了很多有关 Webpack 的问题。
+            </p>
+            <p>
+              源代码几乎完全采用<strong> TypeScript</strong>
+              实现，并用到了<strong>装饰器</strong>语法，有更好的类型支持。
+            </p>
+            <p>
+              使用<strong>Vuex</strong> 和 LocalStorage 进行数据管理，使用 dayjs
+              完成时间统计。
+            </p>
+            <p>手机扫描右侧二维码预览该项目。</p>
+            <img
+              src="./qrcode.dac8d55d.png"
+              style="
+                position: absolute;
+                width: 90px;
+                margin-top: -115px;
+                margin-left: 660px;
+              "
+            />
+          </li>
+          <li>
+            <header>
+              <h3>Skyz-Gulu UI组件库</h3>
+              <span>
+                <a href="https://github.com/SkyZhou197/gulu-test-1">源码链接</a>
+                <a href="https://zhouhaomin.top/skyz-gulu/">项目预览</a>
+              </span>
+            </header>
+            <p>
+              一款利用 <strong>parcel</strong>，基于 <strong>Vue</strong> 的 UI
+              框架。
+            </p>
+            <p>
+              风格简约大方，主要组件有<strong>按钮、输入框、栅格、弹出框</strong>等。
+            </p>
+            <p>
+              使用了30多个<strong>单元测试</strong>，全部为通过，集成测试在
+              <strong>Travis CI</strong>。
+            </p>
+            <p>
+              统一打包，发布到<strong>npm</strong>流程化。
+            </p>
+          </li>
+
+          <li>
+            <header>
+              <h3>番茄闹钟</h3>
+              <span>
+                <a href="https://github.com/SkyZhou197/tomato-alarm-clock"
+                  >源码链接</a
+                >
+                <a href="https://zhouhaomin.top/tomato-alarm-clock/"
+                  >项目预览</a
+                >
+              </span>
+            </header>
+            <p>
+              一款基于<strong>React</strong>/<strong>TypeScript</strong>/<strong>Antd</strong>组件库，应用番茄工作法的功能强大的闹钟。
+            </p>
+            <p>
+              使用<strong> react-router</strong> /<strong> axios</strong>
+              完成注册/登录/跳转页面的功能
+            </p>
+            <p>使用<strong>react-redux</strong>全局管理待办任务数据</p>
+            <p><strong>SVG</strong>绘制任务完成情况的折线图</p>
+            <p>有详细的任务记录，用户可以自行删除和恢复已完成的任务</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="openSource">
+        <h2>开源项目</h2>
+        <ul>
+          <li>
+            <header>
+              <h3>会动的皮卡丘</h3>
+              <span
+                ><a href="https://github.com/SkyZhou197/pikachu">源码链接</a>
+                <a href="https://zhouhaomin.top/pikachu-pre/">项目预览</a>
+              </span>
+            </header>
+            <p>我在学习 <strong>CSS3动画</strong> 时制作的一个可爱的小作品</p>
+          </li>
+          <li class="page2">
+            <header>
+              <h3>简易画板</h3>
+              <span>
+                <a href="https://github.com/SkyZhou197/canvas-demo-1"
+                  >源码链接</a
+                >
+                <a href="https://zhouhaomin.top/canvas-demo-1/">项目预览</a>
+              </span>
+            </header>
+            <p>我在学习 <strong>Canvas</strong> 时制作的一个小作品</p>
+          </li>
+          <li>
+            <header>
+              <h3>前航网站</h3>
+              <span>
+                <a href="https://github.com/SkyZhou197/nav-1">源码链接</a>
+                <a href="https://zhouhaomin.top/nav-1/dist/index.html"
+                  >项目预览</a
+                >
+              </span>
+            </header>
+            <p>我在学习 <strong>jQuery</strong> 时制作的一个小作品</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="others">
+        <h2>其他链接</h2>
+        <ul>
+          <li>
+            <a href="https://zhouhaomin.top">我的博客</a
+            >，主要记录了我学习中遇到的问题
+          </li>
+          <li>
+            <a href="https://github.com/SkyZhou197">我的 GitHub</a
+            >，主要是学习时练手的demo和以上提到的项目
+          </li>
+        </ul>
+      </section>
+    </article>
+    <script src="/main.1f19ae8e.js"></script>
+  </body>
+</html>
